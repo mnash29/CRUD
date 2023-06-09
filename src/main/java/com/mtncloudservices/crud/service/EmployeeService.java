@@ -1,10 +1,10 @@
-package com.mtncloudservices.crud.dao;
+package com.mtncloudservices.crud.service;
 
 import com.mtncloudservices.crud.entity.Employee;
 
 import java.util.List;
 
-public interface EmployeeDAO {
+public interface EmployeeService {
 
     List<Employee> findAll();
 
