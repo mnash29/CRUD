@@ -4,6 +4,10 @@ import com.mtncloudservices.crud.entity.Employee;
 
 import java.util.List;
 
+/**
+ * @deprecated In favor of `JpaRepository` implementation
+ */
+@Deprecated
 public interface EmployeeDAO {
 
     List<Employee> findAll();

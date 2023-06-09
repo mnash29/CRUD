@@ -8,6 +8,11 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+
+/**
+ *  @deprecated This code was deprecated in favor of using the `JpaRepository`
+ */
+@Deprecated
 @Repository
 public class EmployeeDAOJpaImpl implements EmployeeDAO {
 
